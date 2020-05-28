@@ -1,0 +1,27 @@
+element.style{
+    ."top-nav"{
+        height: 64px;
+        line-height: 64px;
+        text-align: center;
+        position: relative;
+    
+    }
+    .top-nav>.container {
+        display:flex;
+        align-items: center;
+        position: relative;
+        padding-right: 16px;
+    
+    
+    }
+    .top-nav>.container>.left{
+        flex: 0 0 auto;
+        line-height: 32px;
+    }
+    .back-button,.back-button:visited{
+        color: #648;
+    }
+.brand:visited{
+    
+}    
+}
