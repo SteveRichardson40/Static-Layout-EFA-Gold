@@ -1,5 +1,5 @@
-element.style{
-    ."top-nav"{
+
+    .top-nav{
         height: 64px;
         line-height: 64px;
         text-align: center;
@@ -21,7 +21,7 @@ element.style{
     .back-button,.back-button:visited{
         color: #648;
     }
-.brand:visited{
-    
+/* .brand:visited {
+
 }    
-}
+
