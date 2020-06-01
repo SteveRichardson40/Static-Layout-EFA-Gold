@@ -1,4 +1,5 @@
 
+
     .top-nav{
         height: 64px;
         line-height: 64px;
@@ -18,10 +19,83 @@
         flex: 0 0 auto;
         line-height: 32px;
     }
-    .back-button,.back-button:visited{
-        color: #648;
+    
+    .button {
+        color: black;
+
+
     }
-/* .brand:visited {
+.top-nav>.container>.actions {
+    flex: 0 0 auto;
+    display: flex;
+}
+.page-actions{
+    height: 32px;
 
-}    
+}
+.page-actions{
+    margin: 0;
+    padding: 0;
+}
+@media(max-width: 738px;).page-actions>.link{
+    margin-left: 16px
+}
+.page-actions>li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+[class*=hint--]{
+    position: relative;
+    display: inline-block;
+}
 
+.body-area.-slim{
+    max-width: 740;
+}
+@media (max-width: 400px).body-area{
+    padding: 16px;
+}
+.site-header{
+    margin: 32px 0;
+}
+.site-header>h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.site-header>p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #678;
+}
+.site-header>.search{
+    margin-top: 32px
+}
+.search-box{
+    background: white;
+    box-shadow: 0 6px 8px rgba(102,119,136,.03), 0 1px 2px rgba(102,119,136,.03));
+    display: flex;
+    height: 64px;
+    align-items: center;
+    cursor: text;
+}
+.search-box::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background: url(data:data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22512%22%20height%3D%22512%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20fill%3D%22rgb(17%2C17%2C17)%22%20d%3D%22M337.51%20305.372h-17.502l-6.57-5.486c20.79-25.232%2033.92-57.054%2033.92-93.257C347.36%20127.63%20283.897%2064%20205.136%2064%20127.452%2064%2064%20127.632%2064%20206.63s63.452%20142.627%20142.225%20142.627c35.01%200%2067.83-13.167%2092.99-34.008l6.562%205.486v17.55L415.18%20448%20448%20415.086%20337.51%20305.372zm-131.285%200c-54.702%200-98.463-43.887-98.463-98.743%200-54.86%2043.76-98.743%2098.463-98.743%2054.7%200%2098.462%2043.884%2098.462%2098.742%200%2054.855-43.762%2098.742-98.462%2098.742z%22%2F%3E%3C%2Fsvg%3E
+    height: 32px;
+    background-position: center center;
+    flex: 0 0 64px;
+    width: 64px;
+    order: 2;
+
+
+}
